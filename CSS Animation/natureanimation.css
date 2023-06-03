@@ -1,0 +1,177 @@
+body{
+
+}
+#overall{
+    background-image: url(./image/cloud\ bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100% ;
+    background-color: rgb(204, 237, 247);    
+    width: 1000px;
+    height: 650px;
+    margin: 0 auto;
+    clear: both;
+    overflow: hidden;
+}
+#sunset{
+    /* background-color: rgb(242, 68, 5);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 70px yellow;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    animation: move 10s linear  infinite normal both;
+    clear: both; */
+
+    background-color: #ffc800;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 6px 7px 70px 20px orange;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    animation: move 10s linear infinite normal both;
+    clear: both;
+}
+@keyframes move {
+    from{transform: translateY(200px);}
+    to{transform: translateY(-65px);}
+    
+}
+#bg{
+    display: inline-block;
+    background-image: url(./image/vertical-forest-path-footway-on-green-grass-background-KR05N4.jpg);
+    width: 100%;
+    height: 60%;
+    background-repeat: repeat-x;
+    position: relative;
+    top: -73%;
+    clear: both;
+    
+}
+#cloud{
+   display: inline;
+   position: relative;
+   top: -10%;
+   left: 500px;
+   clear: both;
+}
+#cloud1{
+    display: inline;
+    position: relative;
+    top: -8%;
+    left: -30%;
+    clear: both;
+ }
+ #cloud2{
+    display: inline;
+    position: relative;
+    top: -15%;
+    left: -40%;
+    clear: both;
+ }
+ #birds{
+    display: inline;
+    position:relative ;
+    top: -55%;
+    left: 30%;
+    clear: both; 
+ }
+ #birds img{
+   animation: animateBirds 10s linear infinite;
+ }
+ @keyframes animateBirds  {0% {transform: translate(-10px);}100% {transform: translate(-100px);}}
+
+ #ocean{
+    display: inline;
+    position: relative;
+    top: -65%;
+    left: 30%;
+    z-index: 1;
+    clear: both;
+ }
+ #tree{
+    display: inline;
+    position: relative;
+    top: -30%;
+    left: 25%;
+    z-index: 1;
+    clear: both;
+ }
+ #tree1{
+    display: inline;
+    position: relative;
+    top: -175%;
+    left: -28%;
+    z-index: 1;
+    clear: both;
+ }
+ #road{
+    display: inline;
+    position: relative;
+    top: -125%;
+    left: 30%;
+    clear: both;
+
+ }
+ #home{
+    display: inline;
+    position: relative;
+    top: -300%;
+    left: 55%;
+    z-index: 4;
+    clear: both;
+ }
+ #tree2{
+    display: inline;
+    position: relative;
+    top: -430%;
+    left: 35%;
+    z-index: 1;
+    clear: both;
+    animation: tree2 3s ease-in-out; 
+    animation-delay: 5s;
+ }
+ @keyframes tree2  {0% {transform:skew(10deg,70deg) translate(0px);  opacity: 0.5; }100% {transform: translate(50px);  opacity: 1;}}
+ #grass{
+    display: inline;
+    position: relative;
+    top: -407%;
+    left: 25%;
+    z-index: 4;
+    clear: both;
+ }
+ #grass1{
+    display: inline;
+    position: relative;
+    top: -531%;
+    left: 8%;
+    z-index: 3;
+    clear: both;
+ }
+ #tree3{
+    display: inline;
+    position: relative;
+    top: -535%;
+    left: -50%;
+    z-index: 2;
+    clear: both; 
+ }
+ #tree3 img{
+   transform: translate(100px);
+   width: auto;
+   margin-left: 5%;
+   margin-top: -2%;
+   opacity: 1;
+   animation: animateTree 3s ease-in-out;
+ }
+ @keyframes animateTree  {0% {transform: translate(10px);  opacity: 0.5;}100% {transform: translate(100px);  opacity: 1;}}
+ #mark{
+    position: relative;
+    top: -50;
+    clear: both;
+    
+ }
